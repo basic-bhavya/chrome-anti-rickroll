@@ -1,0 +1,17 @@
+{
+  "name": "Anti Rickroll",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "72": "images/72.png",
+    "96": "images/96.png",
+    "128": "images/128.png"
+  },
+  "permissions": ["tabs", "alarms", "contextMenus"]
+}
